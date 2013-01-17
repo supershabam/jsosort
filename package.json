@@ -1,0 +1,19 @@
+{
+  "name": "jsosort",
+  "version": "0.0.0",
+  "description": "sort javascript objects so that their properties iterate in a known order",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/supershabam/jsosort"
+  },
+  "keywords": [
+    "sort",
+    "object"
+  ],
+  "author": "Ian Hansen",
+  "license": "MIT"
+}
