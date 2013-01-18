@@ -4,7 +4,7 @@
   "description": "sort javascript objects so that their properties iterate in a known order",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "node_modules/.bin/mocha --compilers .coffee:coffee-script test/unit.test.coffee "
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,10 @@
     "object"
   ],
   "author": "Ian Hansen",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "~1.8.1",
+    "coffee-script": "~1.4.0",
+    "chai": "~1.4.2"
+  }
 }
